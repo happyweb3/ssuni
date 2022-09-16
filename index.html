@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="./css/base.css" type="text/css">
   <!-- 3. 모바일 서식 -->
   <link rel="stylesheet" href="./css/mobile.css" type="text/css">
+  <!-- 4. pc화면서식 -->
+  <link rel="stylesheet" href="./css/pc.css" type="text/css">
   <!-- 아이콘폰트 연결 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- 플렉스 슬라이드 서식 -->
@@ -32,7 +34,7 @@
           <img src="./images/logo.png" alt="상단로고">
         </a>
       </h1>
-    </div>
+    
       <!-- 오른쪽 상단 내비게이션 lnb=Local Navigaition Bar -->
       <nav class="lnb">
         <ul>
@@ -43,16 +45,16 @@
           <li><a href="login.html" title="로그인">login</a></li>
           <li><a href="admin.html" title="어드민">admin</a></li>
           <li>
-            <input type="search" id="sh">
-            <label for="sh"><i class="fas fa-search"></i></label>
+            <input type="search" id="sh" placeholder="검색어입력">
+            <label for="sh"><i class="fas fa-search s1"></i></label>
           </li>
         </ul>
       </nav>
-
+    
       <!-- 모바일용 햄버거 메뉴와 검색아이콘 -->
       <label for="toggle" class="toggle_btn"><i class="fas fa-bars"></i></label>
       <i class="fas fa-search"></i>
-
+    </div>
       <!-- 메인메뉴 -->
       <nav class="gnb">
         <label for="toggle"><i class="fas fa-times"></i></label>
@@ -99,7 +101,7 @@
 
         </ul>
       </nav>
-
+  
     </div>  
   </header>
 
@@ -171,8 +173,9 @@
 
       <article class="brand">
         <h2>브랜드 소개</h2>
-        <a href="a.html" title="브랜드소개" class="brand_banner">
-          <img src="./images/mbn0201.png" alt="브랜드소개">
+        <a href="a.html" title="브랜드소개" class="brand_banner">브랜드스토리</a>
+        <a href="a.html" title="창업상담"> 
+        <img src="./images/mbn0201.png" alt="브랜드소개">
         </a>
       </article>
 

@@ -3,12 +3,15 @@
 @media screen and (max-width:767px){
 /* 모바일 서식 */
 header{
-
+  position: absolute; 
+  z-index: 1000;
+  width: 100%;
 }
 .header_inner{
   width: 100%;
   height: 70px;
   box-shadow: 0px 0px 3px rgb(63, 63, 63);
+  background: #ffffff;
 }
 .header_inner h1{
   text-align:center;
@@ -85,6 +88,10 @@ i.fa-search{right: 14px;}
 }
 
 /* 메인메뉴 서식 */
+main{
+  padding-top: 70px;
+  margin-bottom: 30px;
+}
 .gnb >ul{
   width: 100%;
   padding-top: 120px;
@@ -168,14 +175,20 @@ article img{width: 100%;}
 .store a{
   display: block;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 90%;
   background-position: center;
   text-indent: -9999px;
   /* max-height: 190px; */
   /* height: 190px; */
   height: calc(200px - 10px);
 }
+.notice li, .news li{
+  text-indent: 10px;
+  min-width: 320px;
+  max-width: 414px;
+}
 
+/* 푸터영역 */
 footer{
   padding: 10px 0px;
 }
@@ -184,7 +197,7 @@ footer a{font-weight: 500;}
   text-align: center;
   line-height: 160%;
 }
-.f_lnb ,.sns li{
+.f_lnb li,.sns li{
   display: inline-block;
 
 }
